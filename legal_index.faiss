@@ -1,0 +1,4 @@
+import faiss
+
+index = faiss.read_index("legal_index.faiss")
+print("FAISS index size:", index.ntotal)  # Should be greater than 0
